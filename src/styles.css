@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-scrollbar.swiper-scrollbar-vertical, .swiper-vertical>.swiper-scrollbar {
+    width: 2px !important;
+    background-color: rgba(0,0,0,.1) !important;
+}
+
+
+
+.swiper-scrollbar-drag{
+    background: #EC4B6F !important;
+    height: 109px !important;
+}
+
+.shadow-x{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.15);
+}

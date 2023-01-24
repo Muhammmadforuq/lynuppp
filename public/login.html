@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+       <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body> 
+    <div class="bg-black">
+        <!-- Navigation -->
+        <nav class="max-w-7xl mx-auto flex items-center justify-between p-5 lg:py-9 lg:px-7">
+            <a href="./index.html">
+                <img src="./img/Lynup-Logo.svg" alt="">
+            </a>
+                 
+            <svg class="sm:hidden text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <div class="font-HelveticaNeue font-medium hidden sm:flex items-center text-sm space-x-10 lg:space-x-14">
+                <div class=" text-white space-x-9">
+                    <a class="hover:opacity-60 rounded-100 py-1 px-2.5 transition ease-linear" href="./contact.html">Contact</a>
+                    <a class="border border-brand-purple/80 rounded-100 py-1 px-2.5 transition ease-linear" href="./login.html">Login</a>
+                </div>
+                <a class="bg-brand-purple hover:bg-white transition ease-linear px-8 py-3" href="./book.html">Book a demo</a>
+            </div>            
+        </nav>
+        <!-- Hero -->
+        <div class="text-white text-center pt-16 md:pt-28 pb-20 px-5">
+            <h1 class="max-w-4xl mx-auto font-HelveticaNeue text-4xl md:text-5xl lg:text-7xl pb-8 lg:leading-[88px]"> 
+                Let’s <span class="border border-brand-purple rounded-100 py-2 px-4">go</span>
+            </h1>
+            <p class="max-w-lg mx-auto font-founder-gro opacity-80">
+                Not sure if LYNUP is working for you? We're excited to give you a personal call and discuss your management needs and walk you through all core features.
+            </p>
+    
+        </div>
+    </div>
+     
+    <!-- form -->
+    <div class="max-w-sm mx-auto px-5 md:px-2 pt-11 pb-28">
+        <form>
+            <div class="grid space-y-11">
+                   <!--Username* -->
+                <div class="border-b border-gray-700 focus-within:border-brand-purple">
+                    <label class="block font-inter text-xs pb-4" for="name">
+                        Username*
+                    </label>
+                    <input class="outline-none placeholder:text-brand-gray" placeholder="Username*" type="text" id="name">
+                </div>
+                   <!-- Password*-->
+                <div class="border-b border-gray-700 focus-within:border-brand-purple">
+                    <label class="block font-inter text-xs pb-4" for="password">
+                        Password*
+                    </label>
+                    <input class="outline-none placeholder:text-brand-gray" placeholder="Password" type="password" id="Password">
+                </div>           
+                
+            </div>
+              <!-- Button -->
+              <div class="flex justify-center items-center mt-20">
+               <div class="space-y-4">
+                <button type="submit" class="bg-brand-purple border border-transparent hover:bg-white hover:border-brand-purple transition ease-linear px-8 py-3">
+                    Login                  
+                </button>
+                <a class="block font-inter text-xs text-black/90 text-center underline" href="#">
+                    Forgot password?
+                </a>    
+               </div>
+              </div>
+
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-black border-t border-white/20">
+        <div class="max-w-90rem mx-auto font-HelveticaNeue font-medium text-white px-5 md:px-10 pt-6 pb-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0 gap-5">
+                <div class="lg:w-1/3">
+                    <a href="#">
+                        <svg width="105" height="31" viewBox="0 0 105 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-0.000976562 11.0002V30.6264H14.9064V26.265H5.25682V11.0002H-0.000976562Z" fill="white"/>
+                            <path d="M22.1922 18.0719L17.8004 11.0002H11.955L19.4396 23.1809V30.6264H24.5427V23.1809L32.0274 11.0002H26.3675L22.1922 18.0719Z" fill="white"/>
+                            <path d="M38.5351 11.0002H33.5247V30.6264H38.3495V19.0065L46.762 30.6264H50.9682V11.0002H46.1434V21.8725L38.5351 11.0002Z" fill="white"/>
+                            <path d="M62.6639 31.0002C67.6743 31.0002 71.5403 28.5703 71.5403 22.8383V11.0002H66.2825V21.966C66.2825 24.9566 65.3856 26.5454 62.6639 26.5454C59.9732 26.5454 59.0453 24.9566 59.0453 21.966V11.0002H53.8185V22.8383C53.8185 28.5703 57.6536 31.0002 62.6639 31.0002Z" fill="white"/>
+                            <path d="M79.5865 20.2526V15.237H82.6793C85.0299 15.237 85.9268 16.1093 85.9268 17.7604C85.9268 19.4115 85.0299 20.2526 82.6793 20.2526H79.5865ZM79.5865 24.4893H82.9268C88.0299 24.4893 90.999 22.0906 90.999 17.7292C90.999 13.399 88.0299 11.0002 82.9268 11.0002H74.3596V30.6264H79.5865V24.4893Z" fill="white"/>
+                            <circle cx="98.5" cy="5.5" r="3.5" fill="#EC4B6F"/>
+                        </svg>                   
+                    </a>
+                </div>
+                <p class="lg:w-1/4 lg:text-center opacity-60">
+                    © Copyright 2022 Lynup
+                </p>
+                <div class="lg:w-2/5 flex flex-row justify-end text-xs sm:text-base font-HelveticaNeue font-medium space-x-3 xl:space-x-6">
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Contact</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Security</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Cookie Policy</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Privacy</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Terms</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
