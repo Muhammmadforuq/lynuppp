@@ -6,698 +6,712 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
        <!-- Link Swiper's CSS -->
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!-- Fonts -->
     <link rel="stylesheet" href="./font/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
     <title>Lynup Home</title>
 </head>
 <body> 
-    <div class="bg-black">
+    <header class="bg-black">
         <!-- Navigation -->
         <nav class="max-w-7xl mx-auto flex items-center justify-between p-5 lg:py-9 lg:px-7">
             <a href="./index.html">
                 <img src="./img/Lynup-Logo.svg" alt="">
             </a>
-                 
-            <svg class="sm:hidden text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-            <div class="font-HelveticaNeue font-medium hidden sm:flex items-center text-sm space-x-10 lg:space-x-14">
-                <div class=" text-white space-x-9">
+          
+            <div class="font-HelveticaNeue font-medium flex items-center text-sm md:space-x-10 lg:space-x-14">
+                <div class="hidden md:block  text-white space-x-9">
                     <a class="border border-transparent hover:border-brand-purple/80 rounded-100 py-1 px-2.5 transition ease-linear" href="./contact.html">Contact</a>
                     <a class="border border-transparent hover:border-brand-purple/80 rounded-100 py-1 px-2.5 transition ease-linear" href="./login.html">Login</a>
                 </div>
-                <a class="bg-brand-purple hover:bg-white transition ease-linear px-8 py-3" href="./book.html">Book a demo</a>
+                <a class="text-sm md:text-base bg-brand-purple hover:text-white transition-colors duration-300 ease-linear px-5 md:px-8 py-2 md:py-3" href="./book.html">Book a demo</a>
             </div>            
 
         </nav>
-        <!-- Hero -->
-        <div class=" text-white text-center pt-20 pb-[23rem] sm:pb-96 xl:pb-[406px] px-5">
-            <h1 class="max-w-4xl mx-auto font-HelveticaNeue text-4xl md:text-5xl lg:text-7xl pb-6 lg:leading-[88px]">
-                One  <span class="border border-brand-purple rounded-100 py-2 px-3">workspace</span>  for your
-                entire music business.
-            </h1>
-            <p class="max-w-lg mx-auto font-founder-gro  opacity-80 pb-8 sm:pb-20">
-                Book flights, handle contracts, manage desposits, schedule events and 
-                get on top of your agency's most important work with one easy to use workspace. 
+       
+    </header>
+
+    <main>
+         <!-- hero -->
+         <div class="bg-black">
+            <!-- Hero -->
+            <div class="max-w-xl lg:max-w-2xl xl:max-w-4xl text-white text-center px-5 pt-28 pb-20 mx-auto">
+                <h1 class="font-HelveticaNeue text-4xl md:text-5xl lg:text-7xl !leading-tight mb-6">
+                    One  
+                    <span class="purple-border after:absolute after:left-0 after:top-1 after:w-full after:h-full after:rounded-full after:border-2 after:border-brand-purple">workspace</span>  for your
+                    entire music business.
+                </h1>
+                <p class="font-founder-gro opacity-80">
+                    Book flights, handle contracts, manage desposits, schedule events and
+                     <br class="hidden lg:inline-block">
+                    get on top of your agency's most important work with one easy to use workspace. 
+                </p>
+            </div>
+         </div>
+         <div class="bg-black relative">
+            <div class="md:max-w-2xl lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
+               <div class="">
+                <img class="mx-auto" src="./assets/hero.svg" alt=""> 
+               </div>
+               <div class="absolute left-0 w-full h-1/3 bg-white z-0">
+
+               </div>
+            </div>
+         </div>
+    <!-- texts  -->
+    <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-10 pt-40 sm:pt-64 md:pt-80 pb-16 sm:pb-32">
+        <div class="grid md:grid-cols-2 items-center gap-10 lg:gap-x-16">
+            <p class="text-4xl lg:text-5xl lg:leading-[52px]">
+                It's time to get more efficient and <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">focus</span>  on what really matters.
             </p>
-            
-           <img class="mx-auto -mb-[600px]" src="./img/laptop.png" alt=""> 
+            <p class="font-light text-xl text-brand-black/90">
+                Forget third-party services, delays, and extra expenses <br> — our streamline booking process and powerful features make it easy to manage your agency at the drop of a hat.
+            </p>
         </div>
     </div>
-        <!-- texts  -->
-        <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-10 pt-40 sm:pt-64 md:pt-80 pb-16 sm:pb-32">
-            <div class="grid md:grid-cols-2 items-center gap-10 lg:gap-x-16">
-                <p class="text-4xl lg:text-5xl lg:leading-[52px]">
-                    It's time to get more efficient and <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">focus</span>  on what really matters.
-                </p>
-                <p class="font-light text-xl text-brand-black/90">
-                    Forget third-party services, delays, and extra expenses <br> — our streamline booking process and powerful features make it easy to manage your agency at the drop of a hat.
-                </p>
+    <!-- Comports -->
+    <div class="max-w-6xl mx-auto font-inter px-5 lg:px-10">
+       <div class="grid grid-cols-3 lg:grid-cols-6 gap-y-7 justify-items-center border-y border-brand-skyBlue/80 py-14 sm:py-20 lg:py-24">
+            <!-- 1 -->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2122)">
+                    <path d="M20 6H8V8H20V6Z" fill="black"/>
+                    <path d="M20 10H8V12H20V10Z" fill="black"/>
+                    <path d="M14 14H8V16H14V14Z" fill="black"/>
+                    <path d="M12 24H8V26H12V24Z" fill="black"/>
+                    <path d="M29.707 19.293L26.707 16.293C26.6142 16.2001 26.504 16.1264 26.3827 16.0762C26.2614 16.0259 26.1313 16 26 16C25.8687 16 25.7386 16.0259 25.6173 16.0762C25.496 16.1264 25.3858 16.2001 25.293 16.293L16 25.5859V30H20.4141L29.707 20.707C29.7999 20.6142 29.8736 20.504 29.9239 20.3827C29.9742 20.2614 30 20.1314 30 20C30 19.8687 29.9742 19.7387 29.9239 19.6174C29.8736 19.4961 29.7999 19.3858 29.707 19.293ZM19.5859 28H18V26.4141L23 21.4141L24.5859 23L19.5859 28ZM26 21.5859L24.4141 20L26 18.4141L27.5859 20L26 21.5859Z" fill="#EC4B6F"/>
+                    <path d="M12 30H6C5.46974 29.9994 4.96135 29.7886 4.5864 29.4136C4.21145 29.0386 4.00056 28.5303 4 28V4C4.00056 3.46974 4.21145 2.96135 4.5864 2.5864C4.96135 2.21145 5.46974 2.00056 6 2H22C22.5303 2.00056 23.0386 2.21145 23.4136 2.5864C23.7886 2.96135 23.9994 3.46974 24 4V14H22V4H6V28H12V30Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2122">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <p class="font-bold text-xs">contracts</p>       
             </div>
-        </div>
-        <!-- Comports -->
-        <div class="max-w-6xl mx-auto font-inter px-5 lg:px-10">
-           <div class="grid grid-cols-3 lg:grid-cols-6 gap-y-7 justify-items-center border-y border-brand-skyBlue/80 py-14 sm:py-20 lg:py-24">
-                <!-- 1 -->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2122)">
-                        <path d="M20 6H8V8H20V6Z" fill="black"/>
-                        <path d="M20 10H8V12H20V10Z" fill="black"/>
-                        <path d="M14 14H8V16H14V14Z" fill="black"/>
-                        <path d="M12 24H8V26H12V24Z" fill="black"/>
-                        <path d="M29.707 19.293L26.707 16.293C26.6142 16.2001 26.504 16.1264 26.3827 16.0762C26.2614 16.0259 26.1313 16 26 16C25.8687 16 25.7386 16.0259 25.6173 16.0762C25.496 16.1264 25.3858 16.2001 25.293 16.293L16 25.5859V30H20.4141L29.707 20.707C29.7999 20.6142 29.8736 20.504 29.9239 20.3827C29.9742 20.2614 30 20.1314 30 20C30 19.8687 29.9742 19.7387 29.9239 19.6174C29.8736 19.4961 29.7999 19.3858 29.707 19.293ZM19.5859 28H18V26.4141L23 21.4141L24.5859 23L19.5859 28ZM26 21.5859L24.4141 20L26 18.4141L27.5859 20L26 21.5859Z" fill="#EC4B6F"/>
-                        <path d="M12 30H6C5.46974 29.9994 4.96135 29.7886 4.5864 29.4136C4.21145 29.0386 4.00056 28.5303 4 28V4C4.00056 3.46974 4.21145 2.96135 4.5864 2.5864C4.96135 2.21145 5.46974 2.00056 6 2H22C22.5303 2.00056 23.0386 2.21145 23.4136 2.5864C23.7886 2.96135 23.9994 3.46974 24 4V14H22V4H6V28H12V30Z" fill="black"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2122">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        </defs>
+            <!-- 2 -->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2132)">
+                    <path d="M24 16V26.7515L16.9038 23.1621L16 22.7051L15.0991 23.1611L8 26.748V4H18V2H8C7.46957 2 6.96086 2.21071 6.58579 2.58579C6.21071 2.96086 6 3.46957 6 4V30L16 24.9463L26 30V16H24Z" fill="black"/>
+                    <path d="M26 6V2H24V6H20V8H24V12H26V8H30V6H26Z" fill="#EC4B6F"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2132">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
                     </svg>
-                    <p class="font-bold text-xs">contracts</p>       
-                </div>
-                <!-- 2 -->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2132)">
-                        <path d="M24 16V26.7515L16.9038 23.1621L16 22.7051L15.0991 23.1611L8 26.748V4H18V2H8C7.46957 2 6.96086 2.21071 6.58579 2.58579C6.21071 2.96086 6 3.46957 6 4V30L16 24.9463L26 30V16H24Z" fill="black"/>
-                        <path d="M26 6V2H24V6H20V8H24V12H26V8H30V6H26Z" fill="#EC4B6F"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2132">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                    <p class="font-bold text-xs">bookings</p>       
-                </div>
-                <!-- 3 -->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2138)">
-                        <path d="M30 28H2V30H30V28Z" fill="#EC4B6F"/>
-                        <path d="M13.4796 5.15012L19.1696 13.2901L19.9696 14.4401L21.3196 14.0801L25.8396 12.8701C26.2062 12.7702 26.5929 12.7702 26.9596 12.8701C27.2465 12.9425 27.5118 13.0829 27.7329 13.2797C27.954 13.4764 28.1244 13.7235 28.2296 14.0001C28.3196 14.2412 28.3589 14.4982 28.3451 14.7552C28.3312 15.0121 28.2645 15.2634 28.149 15.4934C28.0335 15.7234 27.8719 15.927 27.6741 16.0917C27.4763 16.2563 27.2467 16.3783 26.9996 16.4501L8.28959 21.4501C7.96311 21.5457 7.61608 21.5457 7.28959 21.4501C6.97756 21.3596 6.6945 21.1893 6.46829 20.9561C6.24209 20.7229 6.08055 20.4348 5.99959 20.1201L5.74959 19.1901L4.99959 16.3801L4.25959 13.6401L5.69959 13.2501L7.99959 16.3501L8.8096 17.4301L10.1196 17.0801L12.9196 16.3301L14.8596 15.8101L14.3396 13.8801L12.0796 5.52012L13.4796 5.15012ZM14.1596 3.00012C13.9953 2.96025 13.8239 2.96025 13.6596 3.00012L10.5696 3.83012C10.3303 3.90445 10.1276 4.06595 10.0016 4.28262C9.87569 4.4993 9.83571 4.75536 9.8896 5.00012L12.3896 14.3601L9.57959 15.1101L6.84959 11.5001C6.71977 11.327 6.53731 11.2007 6.32959 11.1401C6.16531 11.1002 5.99388 11.1002 5.82959 11.1401L2.71959 12.0001C2.47493 12.0662 2.26449 12.2228 2.13083 12.4381C1.99717 12.6535 1.95027 12.9115 1.99959 13.1601L2.99959 16.9001L3.74959 19.7001L3.99959 20.6401C4.17518 21.2974 4.52092 21.8967 5.00196 22.3778C5.483 22.8588 6.08235 23.2045 6.73959 23.3801C7.39499 23.5535 8.0842 23.5535 8.73959 23.3801L27.4396 18.3801C28.2656 18.1686 28.9977 17.6882 29.5205 17.0147C30.0433 16.3412 30.3271 15.5128 30.3271 14.6601C30.3271 13.8075 30.0433 12.9791 29.5205 12.3055C28.9977 11.632 28.2656 11.1516 27.4396 10.9401C26.7315 10.755 25.9877 10.755 25.2796 10.9401L20.7696 12.1501L14.6996 3.41012C14.5728 3.21474 14.3818 3.06973 14.1596 3.00012Z" fill="black"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2138">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>                  
-                    <p class="font-bold text-xs">flights</p>       
-                </div>
-                <!-- 4-->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2144)">
-                        <path d="M20 6H8V8H20V6Z" fill="black"/>
-                        <path d="M20 10H8V12H20V10Z" fill="black"/>
-                        <path d="M14 14H8V16H14V14Z" fill="black"/>
-                        <path d="M12 24H8V26H12V24Z" fill="black"/>
-                        <path d="M12 30H6C5.46974 29.9994 4.96135 29.7886 4.5864 29.4136C4.21145 29.0386 4.00056 28.5303 4 28V4C4.00056 3.46974 4.21145 2.96135 4.5864 2.5864C4.96135 2.21145 5.46974 2.00056 6 2H22C22.5303 2.00056 23.0386 2.21145 23.4136 2.5864C23.7886 2.96135 23.9994 3.46974 24 4V14H22V4H6V28H12V30Z" fill="black"/>
-                        <g clip-path="url(#clip1_1_2144)">
-                        <path d="M26.5004 26.2576C26.5004 23.95 24.6104 23.687 23.0918 23.476C21.4368 23.2456 20.5004 23.0461 20.5004 21.621C20.5004 20.4246 21.7539 20 22.8273 20C23.3623 19.9827 23.8937 20.0928 24.3777 20.3213C24.8618 20.5497 25.2846 20.89 25.6113 21.314L26.3894 20.686C26.0395 20.2362 25.6042 19.8598 25.1084 19.5787C24.6126 19.2977 24.0661 19.1173 23.5004 19.0481V17.5H22.5004V19.011C20.6928 19.1206 19.5004 20.141 19.5004 21.621C19.5004 23.986 21.4154 24.2523 22.9541 24.466C24.5804 24.6924 25.5004 24.8872 25.5004 26.2576C25.5004 27.7737 23.9341 28 23.0004 28C21.2857 28 20.5613 27.5181 19.8894 26.6861L19.1113 27.3139C19.5077 27.8363 20.0204 28.259 20.6087 28.5486C21.197 28.8383 21.8447 28.9868 22.5004 28.9824V30.5H23.5004V28.9775C25.3632 28.8254 26.5004 27.814 26.5004 26.2576Z" fill="#EC4B6F" stroke="#EC4B6F"/>
-                        </g>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2144">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        <clipPath id="clip1_1_2144">
-                        <rect width="16" height="16" fill="white" transform="translate(15 16)"/>
-                        </clipPath>
-                        </defs>
-                        </svg>                                  
-                    <p class="font-bold text-xs">invoices</p>       
-                </div>
-                <!-- 5 -->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2156)">
-                        <path d="M30 26H2V28H30V26Z" fill="#EC4B6F"/>
-                        <path d="M25.4 9C26.2 8.2 26.2 7 25.4 6.2L21.8 2.6C21 1.8 19.8 1.8 19 2.6L4 17.6V24H10.4L25.4 9ZM20.4 4L24 7.6L21 10.6L17.4 7L20.4 4ZM6 22V18.4L16 8.4L19.6 12L9.6 22H6Z" fill="black"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2156">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                                                        
-                    <p class="font-bold text-xs">e-sign</p>       
-                </div>
-                <!-- 6 -->
-                <div class="flex items-center space-x-2.5">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_2162)">
-                        <path d="M26 21H23V18H21V21H18V23H21V26H23V23H26V21Z" fill="#EC4B6F"/>
-                        <path d="M22 30C17.6 30 14 26.4 14 22C14 17.6 17.6 14 22 14C26.4 14 30 17.6 30 22C30 26.4 26.4 30 22 30ZM22 16C18.7 16 16 18.7 16 22C16 25.3 18.7 28 22 28C25.3 28 28 25.3 28 22C28 18.7 25.3 16 22 16Z" fill="#EC4B6F"/>
-                        <path d="M28 6C28 4.9 27.1 4 26 4H22V2H20V4H12V2H10V4H6C4.9 4 4 4.9 4 6V26C4 27.1 4.9 28 6 28H12V26H6V6H10V8H12V6H20V8H22V6H26V12H28V6Z" fill="black"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_2162">
-                        <rect width="32" height="32" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                                                        
-                    <p class="font-bold text-xs">calendar</p>       
-                </div>
-           </div>
-
-            
-        </div>
-        <!-- Swipper section -->
-        <div class="relative max-w-7xl mx-auto px-5 lg:px-14 py-20 lg:py-40">
-            <div class="grid lg:grid-cols-2 items-center gap-10">
-              <div class="">
-                      <!-- Swiper -->
-                      <div class="!font-founder-gro swiper mySwiper h-96">
-                        <div class="swiper-wrapper pl-5 sm:pl-10 lg:pl-16 lg:!max-w-[460px]">
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        Manage all your bookings in an easy to use interface without
-                                         any friction. Swap the chronic stress for unflappable confidence
-                                    </p>
-                                </div>
-                            </div>  
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">
-                                        Save time with automations
-                                    </h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        Lynup is packed with features that will automate tasks. Work smart to crush those boring, repetitive tasks faster than ever.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">
-                                        Grow and optimize your agency
-                                    </h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        With streamlined booking, better organization, and better workflow you will be able to be more efficient  
-                                    </p>
-                                </div>
-                            </div>  
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        Manage all your bookings in an easy to use interface without
-                                         any friction. Swap the chronic stress for unflappable confidence
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        Manage all your bookings in an easy to use interface without
-                                         any friction. Swap the chronic stress for unflappable confidence
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div>
-                                    <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
-                                    <p class="font-light text-xl text-brand-black/90">
-                                        Manage all your bookings in an easy to use interface without
-                                         any friction. Swap the chronic stress for unflappable confidence
-                                    </p>
-                                </div>
-                            </div>
-                      
-                        </div>
-                        <div class="swiper-scrollbar !left-0"></div>
-                    </div>
-              </div>
-              <div class="">
-                <img class="w-full h-full object-cover" src="./img/mail.png" alt="">
-              </div>
+                    
+                <p class="font-bold text-xs">bookings</p>       
             </div>
-        </div>
-
-          <!-- texts  -->
-          <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-10 pt-20 pb-20 sm:pb-28 lg:pb-60">
-            <div class="grid md:grid-cols-2 items-center gap-10 lg:gap-x-16">
-                <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
-                    Six  <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">products,</span>  
-                    one advanced easy to use platform.
-                </p>
-                <p class="font-light text-xl text-brand-black/90">
-                    Lynup integrates six products and hundreds of features built specifically to help you grow your music agency. So you can focus on the work that matters most and thrive as a booking agent. 
-                </p>
+            <!-- 3 -->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2138)">
+                    <path d="M30 28H2V30H30V28Z" fill="#EC4B6F"/>
+                    <path d="M13.4796 5.15012L19.1696 13.2901L19.9696 14.4401L21.3196 14.0801L25.8396 12.8701C26.2062 12.7702 26.5929 12.7702 26.9596 12.8701C27.2465 12.9425 27.5118 13.0829 27.7329 13.2797C27.954 13.4764 28.1244 13.7235 28.2296 14.0001C28.3196 14.2412 28.3589 14.4982 28.3451 14.7552C28.3312 15.0121 28.2645 15.2634 28.149 15.4934C28.0335 15.7234 27.8719 15.927 27.6741 16.0917C27.4763 16.2563 27.2467 16.3783 26.9996 16.4501L8.28959 21.4501C7.96311 21.5457 7.61608 21.5457 7.28959 21.4501C6.97756 21.3596 6.6945 21.1893 6.46829 20.9561C6.24209 20.7229 6.08055 20.4348 5.99959 20.1201L5.74959 19.1901L4.99959 16.3801L4.25959 13.6401L5.69959 13.2501L7.99959 16.3501L8.8096 17.4301L10.1196 17.0801L12.9196 16.3301L14.8596 15.8101L14.3396 13.8801L12.0796 5.52012L13.4796 5.15012ZM14.1596 3.00012C13.9953 2.96025 13.8239 2.96025 13.6596 3.00012L10.5696 3.83012C10.3303 3.90445 10.1276 4.06595 10.0016 4.28262C9.87569 4.4993 9.83571 4.75536 9.8896 5.00012L12.3896 14.3601L9.57959 15.1101L6.84959 11.5001C6.71977 11.327 6.53731 11.2007 6.32959 11.1401C6.16531 11.1002 5.99388 11.1002 5.82959 11.1401L2.71959 12.0001C2.47493 12.0662 2.26449 12.2228 2.13083 12.4381C1.99717 12.6535 1.95027 12.9115 1.99959 13.1601L2.99959 16.9001L3.74959 19.7001L3.99959 20.6401C4.17518 21.2974 4.52092 21.8967 5.00196 22.3778C5.483 22.8588 6.08235 23.2045 6.73959 23.3801C7.39499 23.5535 8.0842 23.5535 8.73959 23.3801L27.4396 18.3801C28.2656 18.1686 28.9977 17.6882 29.5205 17.0147C30.0433 16.3412 30.3271 15.5128 30.3271 14.6601C30.3271 13.8075 30.0433 12.9791 29.5205 12.3055C28.9977 11.632 28.2656 11.1516 27.4396 10.9401C26.7315 10.755 25.9877 10.755 25.2796 10.9401L20.7696 12.1501L14.6996 3.41012C14.5728 3.21474 14.3818 3.06973 14.1596 3.00012Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2138">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                  
+                <p class="font-bold text-xs">flights</p>       
             </div>
-        </div>
-
-        <!-- Accardion -->
-        <div class="bg-black">
-            <div class="max-w-7xl mx-auto font-founder-gro lg:flex justify-between space-y-10 lg:space-y-0 lg:space-x-14 pt-40 pb-20 px-5 lg:px-14">
-                <div class="lg:w-2/5 text-white ">
-                      <!-- Tab 1 -->
-                    <div class="border-t outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Contracts
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p class="text-xl font-light py-2 text-justify ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-                            repellat amet doloribus consequuntur eos similique provident
-                            tempora voluptates iure quia fuga dicta voluptatibus culpa
-                            mollitia recusandae delectus id suscipit labore?
-                            </p>
-                        </div>
-
-                    </div>
-                      <!-- Tab 2 -->
-                    <div class="border-y outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Booking
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p class="text-xl font-light py-2 text-justify ">
-                                Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
-                            </p>
-                        </div>
-
-                    </div>
-
-                      <!-- Tab 3 -->
-                      <div class="border-b outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Flights
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p class="text-xl font-light py-2 text-justify ">
-                                Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
-                            </p>
-                        </div>
-
-                    </div>
-                      <!-- Tab 4 -->
-                      <div class="border-b outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Invoices
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                            <p class="text-xl font-light py-2 text-justify ">
-                                Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <!-- Tab 5 -->
-                    <div class="border-b outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Calendar
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                           <form>
-                              <input class="text-white py-4 px-6 bg-red-600" type="date" name="" id="">
-                           </form>
-                        </div>
-
-                    </div>
-
-                    <!-- Tab 6 -->
-                    <div class="border-b outline-none group" tabindex="1">
-                        <!-- Tab Flex Container -->
-                        <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
-                            <!-- Tab Title -->
-                            <div class="font-medium text-2xl transition duration-500 ease">
-                                Team
-                            </div>
-                            <!-- Arrow -->
-                            <div class="transition duration-500 ease group-focus:-rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
-                                <path
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                d="M1 1l8 8 8-8"
-                                />
-                            </svg>
-                            </div>
-                            
-                        </div>
-
-                        <!-- Tab Inner Content -->
-                        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
-                           <p class="text-xl font-light">
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam neque quibusdam, similique aperiam maxime incidunt atque magni quod quis nesciunt architecto, cupiditate quasi a doloremque.
-                           </p>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="lg:w-3/5">
-                    <img src="./img/video.png" alt="">
-                </div>
+            <!-- 4-->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2144)">
+                    <path d="M20 6H8V8H20V6Z" fill="black"/>
+                    <path d="M20 10H8V12H20V10Z" fill="black"/>
+                    <path d="M14 14H8V16H14V14Z" fill="black"/>
+                    <path d="M12 24H8V26H12V24Z" fill="black"/>
+                    <path d="M12 30H6C5.46974 29.9994 4.96135 29.7886 4.5864 29.4136C4.21145 29.0386 4.00056 28.5303 4 28V4C4.00056 3.46974 4.21145 2.96135 4.5864 2.5864C4.96135 2.21145 5.46974 2.00056 6 2H22C22.5303 2.00056 23.0386 2.21145 23.4136 2.5864C23.7886 2.96135 23.9994 3.46974 24 4V14H22V4H6V28H12V30Z" fill="black"/>
+                    <g clip-path="url(#clip1_1_2144)">
+                    <path d="M26.5004 26.2576C26.5004 23.95 24.6104 23.687 23.0918 23.476C21.4368 23.2456 20.5004 23.0461 20.5004 21.621C20.5004 20.4246 21.7539 20 22.8273 20C23.3623 19.9827 23.8937 20.0928 24.3777 20.3213C24.8618 20.5497 25.2846 20.89 25.6113 21.314L26.3894 20.686C26.0395 20.2362 25.6042 19.8598 25.1084 19.5787C24.6126 19.2977 24.0661 19.1173 23.5004 19.0481V17.5H22.5004V19.011C20.6928 19.1206 19.5004 20.141 19.5004 21.621C19.5004 23.986 21.4154 24.2523 22.9541 24.466C24.5804 24.6924 25.5004 24.8872 25.5004 26.2576C25.5004 27.7737 23.9341 28 23.0004 28C21.2857 28 20.5613 27.5181 19.8894 26.6861L19.1113 27.3139C19.5077 27.8363 20.0204 28.259 20.6087 28.5486C21.197 28.8383 21.8447 28.9868 22.5004 28.9824V30.5H23.5004V28.9775C25.3632 28.8254 26.5004 27.814 26.5004 26.2576Z" fill="#EC4B6F" stroke="#EC4B6F"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2144">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    <clipPath id="clip1_1_2144">
+                    <rect width="16" height="16" fill="white" transform="translate(15 16)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>                                  
+                <p class="font-bold text-xs">invoices</p>       
             </div>
+            <!-- 5 -->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2156)">
+                    <path d="M30 26H2V28H30V26Z" fill="#EC4B6F"/>
+                    <path d="M25.4 9C26.2 8.2 26.2 7 25.4 6.2L21.8 2.6C21 1.8 19.8 1.8 19 2.6L4 17.6V24H10.4L25.4 9ZM20.4 4L24 7.6L21 10.6L17.4 7L20.4 4ZM6 22V18.4L16 8.4L19.6 12L9.6 22H6Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2156">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                                                    
+                <p class="font-bold text-xs">e-sign</p>       
+            </div>
+            <!-- 6 -->
+            <div class="flex items-center space-x-2.5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2162)">
+                    <path d="M26 21H23V18H21V21H18V23H21V26H23V23H26V21Z" fill="#EC4B6F"/>
+                    <path d="M22 30C17.6 30 14 26.4 14 22C14 17.6 17.6 14 22 14C26.4 14 30 17.6 30 22C30 26.4 26.4 30 22 30ZM22 16C18.7 16 16 18.7 16 22C16 25.3 18.7 28 22 28C25.3 28 28 25.3 28 22C28 18.7 25.3 16 22 16Z" fill="#EC4B6F"/>
+                    <path d="M28 6C28 4.9 27.1 4 26 4H22V2H20V4H12V2H10V4H6C4.9 4 4 4.9 4 6V26C4 27.1 4.9 28 6 28H12V26H6V6H10V8H12V6H20V8H22V6H26V12H28V6Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2162">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                                                    
+                <p class="font-bold text-xs">calendar</p>       
+            </div>
+       </div>
 
-            <p class="text-4xl lg:text-5xl text-white text-center pb-20 lg:py-36">                 
-                and many other powerful <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">features...</span>
+        
+    </div>
+    <!-- Swipper section -->
+    <div class="relative max-w-7xl mx-auto px-5 lg:px-14 py-20 lg:py-40">
+        <div class="grid lg:grid-cols-2 items-center gap-10">
+          <div class="">
+                  <!-- Swiper -->
+                  <div class="!font-founder-gro swiper mySwiper h-96">
+                    <div class="swiper-wrapper pl-5 sm:pl-10 lg:pl-16 lg:!max-w-[460px]">
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    Manage all your bookings in an easy to use interface without
+                                     any friction. Swap the chronic stress for unflappable confidence
+                                </p>
+                            </div>
+                        </div>  
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">
+                                    Save time with automations
+                                </h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    Lynup is packed with features that will automate tasks. Work smart to crush those boring, repetitive tasks faster than ever.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">
+                                    Grow and optimize your agency
+                                </h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    With streamlined booking, better organization, and better workflow you will be able to be more efficient  
+                                </p>
+                            </div>
+                        </div>  
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    Manage all your bookings in an easy to use interface without
+                                     any friction. Swap the chronic stress for unflappable confidence
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    Manage all your bookings in an easy to use interface without
+                                     any friction. Swap the chronic stress for unflappable confidence
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <h3 class="font-medium text-2xl pb-2">Intuitive design and workflow</h3>
+                                <p class="font-light text-xl text-brand-black/90">
+                                    Manage all your bookings in an easy to use interface without
+                                     any friction. Swap the chronic stress for unflappable confidence
+                                </p>
+                            </div>
+                        </div>
+                  
+                    </div>
+                    <div class="swiper-scrollbar !left-0"></div>
+                </div>
+          </div>
+          <div class="">
+            <img class="w-full h-full object-cover" src="./img/mail.png" alt="">
+          </div>
+        </div>
+    </div>
+
+      <!-- texts  -->
+      <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-10 pt-20 pb-20 sm:pb-28 lg:pb-60">
+        <div class="grid md:grid-cols-2 items-center gap-10 lg:gap-x-16">
+            <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
+                Six  <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">products,</span>  
+                one advanced easy to use platform.
             </p>
-
-
+            <p class="font-light text-xl text-brand-black/90">
+                Lynup integrates six products and hundreds of features built specifically to help you grow your music agency. So you can focus on the work that matters most and thrive as a booking agent. 
+            </p>
         </div>
-        <!-- Let’s get your music business  running. -->
-        <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-0.5 pt-20 lg:pt-48 pb-20">
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-5 sm:gap-x-4 lg:gap-x-8 gap-y-6
-             lg:gap-y-10">
-                <!-- Text box 1 -->
-                <div class="md:col-span-2 lg:col-span-1 lg:row-span-5">
-                    <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
-                        Let’s get your music <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">business</span>  running.
-                    </p>
+    </div>
+
+    <!-- Accardion -->
+    <div class="bg-black">
+        <div class="max-w-7xl mx-auto font-founder-gro lg:flex justify-between space-y-10 lg:space-y-0 lg:space-x-14 pt-40 pb-20 px-5 lg:px-14">
+            <div class="lg:w-2/5 text-white ">
+                  <!-- Tab 1 -->
+                <div class="border-t outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Contracts
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="text-xl font-light py-2 text-justify ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                        repellat amet doloribus consequuntur eos similique provident
+                        tempora voluptates iure quia fuga dicta voluptatibus culpa
+                        mollitia recusandae delectus id suscipit labore?
+                        </p>
+                    </div>
+
                 </div>
-                <!-- Text box 2 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Templates</h3>
-                    <p class="font-light text-xl text-brand-black/90">
-                        Create your own branded contract and invoice templates, then track their status in the overview section.
-                    </p>
+                  <!-- Tab 2 -->
+                <div class="border-y outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Booking
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="text-xl font-light py-2 text-justify ">
+                            Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
+                        </p>
+                    </div>
+
                 </div>
-                <!-- Text box 3 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Deals</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        Create your own deal for each event and have your statement calculated automatically based on ticket sales.
-                    </p>
+
+                  <!-- Tab 3 -->
+                  <div class="border-b outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Flights
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="text-xl font-light py-2 text-justify ">
+                            Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
+                        </p>
+                    </div>
+
                 </div>
-                <!-- Text box 4 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Info from third parties</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        Request the information online so that everyone only has to enter the data once rather than multiple times in different places.
-                    </p>
+                  <!-- Tab 4 -->
+                  <div class="border-b outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Invoices
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="text-xl font-light py-2 text-justify ">
+                            Share, sign, and manage your contracts Save all your artist's bookings in one, convenient list. Add labels like dates, artist names, promoters, and venues to sort your bookings effortlessly. Move through your deal flow with minimal friction without things falling through the cracks.
+                        </p>
+                    </div>
+
                 </div>
-                 <!-- Text box 5 -->
-                 <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">E-sign</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        Businesses run on agreements. Prepare, send, sign, and track eSignatures effortlessly with our built-in feature.
-                    </p>
+
+                <!-- Tab 5 -->
+                <div class="border-b outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Calendar
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                       <form>
+                          <input class="text-white py-4 px-6 bg-red-600" type="date" name="" id="">
+                       </form>
+                    </div>
+
                 </div>
-                  <!-- Text box 6 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Flight booking integration</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        Book a flight for your artist on Lynup and it will be automatically linked to your contract. Pay for the flight ticket with any credit card.
-                    </p>
+
+                <!-- Tab 6 -->
+                <div class="border-b outline-none group" tabindex="1">
+                    <!-- Tab Flex Container -->
+                    <div class="flex items-center justify-between pt-6 pb-3 pr-4 transition duration-500 cursor-pointer group ease">
+                        <!-- Tab Title -->
+                        <div class="font-medium text-2xl transition duration-500 ease">
+                            Team
+                        </div>
+                        <!-- Arrow -->
+                        <div class="transition duration-500 ease group-focus:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                            <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            d="M1 1l8 8 8-8"
+                            />
+                        </svg>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Tab Inner Content -->
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                       <p class="text-xl font-light">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam neque quibusdam, similique aperiam maxime incidunt atque magni quod quis nesciunt architecto, cupiditate quasi a doloremque.
+                       </p>
+                    </div>
+
                 </div>
-                   <!-- Text box 7 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Automate availability</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        Set unavailable days, times, and/or locations to prevent you and your contacts from booking on the same day.
-                    </p>
-                </div>
-                   <!-- Text box 8 -->
-                <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Connect to Google calendar</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        All of your calendars can be linked to your preferred calendar software individually.
-                    </p>
-                </div>
-                  <!-- Text box 9 -->
-                  <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Automate email reminders</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        To keep your cashflow consistent, send automated email reminders when your clients haven't paid.
-                    </p>
-                </div>
-                  <!-- Text box 10 -->
-                  <div class="pb-7 border-b border-black/10">
-                    <h3 class="text-2xl font-medium">Work from anywhere</h3>
-                    <p class="font-light text-xl  text-brand-black/90">
-                        You can access the system from any location in the world. 
-                    </p>
-                </div>
+
+            </div>
+            <div class="lg:w-3/5">
+                <img src="./img/video.png" alt="">
             </div>
         </div>
 
-        <!-- One space,  not all over the place -->
-        <div class="bg-gradient-to-r from-[#A8A0F8] to-[#EE6EAB] py-36 sm:py-44 lg:pb-80">
-            <div class="max-w-5xl mx-auto px-5">
-                <div class="grid md:grid-cols-2 items-center md:space-x-8 space-y-6 md:space-y-0 pb-16">
-                    <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
-                       <span class="border-2 border-white rounded-[150px]  py-1 px-3"> One space, </span> not all over the place
-                    </p>
-                    <p class="font-light text-[19px] text-brand-black">
-                        The Lynup dashboard provides a bird's-eye view of your most important work in seconds. Manage your artists, events, contracts, invoices, and flights with ease. Anywhere, at any time. Your team, members, and clients will thank you later.
-                    </p>
+        <p class="text-4xl lg:text-5xl text-white text-center pb-20 lg:py-36">                 
+            and many other powerful <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">features...</span>
+        </p>
+
+
+    </div>
+    <!-- Let’s get your music business  running. -->
+    <div class="max-w-6xl mx-auto font-founder-gro px-5 lg:px-0.5 pt-20 lg:pt-48 pb-20">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-5 sm:gap-x-4 lg:gap-x-8 gap-y-6
+         lg:gap-y-10">
+            <!-- Text box 1 -->
+            <div class="md:col-span-2 lg:col-span-1 lg:row-span-5">
+                <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
+                    Let’s get your music <span class="border-2 border-brand-purple rounded-[150px]  py-1 px-3">business</span>  running.
+                </p>
+            </div>
+            <!-- Text box 2 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Templates</h3>
+                <p class="font-light text-xl text-brand-black/90">
+                    Create your own branded contract and invoice templates, then track their status in the overview section.
+                </p>
+            </div>
+            <!-- Text box 3 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Deals</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    Create your own deal for each event and have your statement calculated automatically based on ticket sales.
+                </p>
+            </div>
+            <!-- Text box 4 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Info from third parties</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    Request the information online so that everyone only has to enter the data once rather than multiple times in different places.
+                </p>
+            </div>
+             <!-- Text box 5 -->
+             <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">E-sign</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    Businesses run on agreements. Prepare, send, sign, and track eSignatures effortlessly with our built-in feature.
+                </p>
+            </div>
+              <!-- Text box 6 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Flight booking integration</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    Book a flight for your artist on Lynup and it will be automatically linked to your contract. Pay for the flight ticket with any credit card.
+                </p>
+            </div>
+               <!-- Text box 7 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Automate availability</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    Set unavailable days, times, and/or locations to prevent you and your contacts from booking on the same day.
+                </p>
+            </div>
+               <!-- Text box 8 -->
+            <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Connect to Google calendar</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    All of your calendars can be linked to your preferred calendar software individually.
+                </p>
+            </div>
+              <!-- Text box 9 -->
+              <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Automate email reminders</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    To keep your cashflow consistent, send automated email reminders when your clients haven't paid.
+                </p>
+            </div>
+              <!-- Text box 10 -->
+              <div class="pb-7 border-b border-black/10">
+                <h3 class="text-2xl font-medium">Work from anywhere</h3>
+                <p class="font-light text-xl  text-brand-black/90">
+                    You can access the system from any location in the world. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- One space,  not all over the place -->
+    <div class="bg-gradient-to-r from-[#A8A0F8] to-[#EE6EAB] py-36 sm:py-44 lg:pb-80">
+        <div class="max-w-5xl mx-auto px-5">
+            <div class="grid md:grid-cols-2 items-center md:space-x-8 space-y-6 md:space-y-0 pb-16">
+                <p class="text-4xl lg:text-5xl lg:leading-[52px]">                 
+                   <span class="border-2 border-white rounded-[150px]  py-1 px-3"> One space, </span> not all over the place
+                </p>
+                <p class="font-light text-[19px] text-brand-black">
+                    The Lynup dashboard provides a bird's-eye view of your most important work in seconds. Manage your artists, events, contracts, invoices, and flights with ease. Anywhere, at any time. Your team, members, and clients will thank you later.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative max-w-[1176px] mx-auto hidden lg:block"> 
+            <div class="inline-flex items-center shadow-x justify-center space-x-4 bg-white ml-8 xl:ml-20 pl-4 py-4 pr-6">
+                <div class="w-16 h-16">
+                    <img class="w-full h-full object-cover" src="./img/image.png" alt="">
+                </div>
+
+                <div class="space-y-1.5">
+                    <div role="status" class="max-w-sm animate-pulse">
+                        <div class="w-10 sm:w-12 md:w-[84px] h-6 bg-gray-300 dark:bg-gray-700"></div>
+                    </div>
+
+                    <div role="status" class="max-w-sm animate-pulse">
+                        <div class="w-10 sm:w-12 md:w-[86px] h-2.5 bg-gray-300 dark:bg-gray-700"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="relative max-w-[1176px] mx-auto hidden lg:block"> 
-                <div class="inline-flex items-center shadow-x justify-center space-x-4 bg-white ml-8 xl:ml-20 pl-4 py-4 pr-6">
-                    <div class="w-16 h-16">
-                        <img class="w-full h-full object-cover" src="./img/image.png" alt="">
-                    </div>
-    
-                    <div class="space-y-1.5">
-                        <div role="status" class="max-w-sm animate-pulse">
-                            <div class="w-10 sm:w-12 md:w-[84px] h-6 bg-gray-300 dark:bg-gray-700"></div>
-                        </div>
-    
-                        <div role="status" class="max-w-sm animate-pulse">
-                            <div class="w-10 sm:w-12 md:w-[86px] h-2.5 bg-gray-300 dark:bg-gray-700"></div>
-                        </div>
-                    </div>
-                </div>
-
-               <div class="relative mt-7">
-                  <img class="max-w-[770px] h-full mx-auto" src="./img/center-browser.png" alt="">
-                   <!-- Absolute item right top -->
-                    <div class="absolute right-0 -top-14 z-0 w-[434px] flex justify-between items-center shadow-x space-x-6 bg-white px-5 pt-7 pb-8">
-                        <div class="w-1/2 space-y-1.5">
-                            <div role="status" class="animate-pulse">
-                                <div class="h-6 bg-gray-300 dark:bg-gray-700"></div>
-                            </div>
-
-                            <div role="status" class="animate-pulse">
-                                <div class="h-2.5 bg-gray-300 dark:bg-gray-700"></div>
-                            </div>
-                        </div>
-
-                        <a class="w-1/2 text-xs text-white text-center bg-brand-purple hover:opacity-60 transition ease-linear px-6 py-4" href="#">
-                            Send reminder
-                        </a>
-
-                    </div>
-                    <!-- Absolute content left  -->
-                    <img class="absolute z-0 -top-7 left-20 xl:left-32" src="./img/gaserrr.svg" alt="">
-                          <!-- Absolute content right  -->
-                    <img class="absolute z-0 right-16 xl:right-24 top-14" src="./img/right-circlee.svg" alt="">
-                    <!-- Absolute Card -->
-                    <div class="w-56 absolute z-20 right-14 -mt-28 cursor-pointer bg-white shadow-x p-4">
-                        <div role="status" class="w-full mb-6 animate-pulse">
+           <div class="relative mt-7">
+              <img class="max-w-[770px] h-full mx-auto" src="./img/center-browser.png" alt="">
+               <!-- Absolute item right top -->
+                <div class="absolute right-0 -top-14 z-0 w-[434px] flex justify-between items-center shadow-x space-x-6 bg-white px-5 pt-7 pb-8">
+                    <div class="w-1/2 space-y-1.5">
+                        <div role="status" class="animate-pulse">
                             <div class="h-6 bg-gray-300 dark:bg-gray-700"></div>
                         </div>
-                        <div class="mb-4">
-                            <img class="w-full" src="./img/artist-list.png" alt="">
-                        </div>
 
-                        <button class="w-full font-inter text-[10px] font-semibold border text-brand-purple border-brand-purple  hover:bg-brand-purple
-                            hover:text-white transition ease-linear py-4">
-                            Select Artists
-                        </button>
-
-                    </div>
-
-                    <!--  Absolute content left & bottom -->
-                    <div class="inline-flex items-center shadow-x justify-center gap-x-4 bg-white -translate-y-40 -ml-4 pl-4 py-4 pr-6">
-                        <div class="w-16 h-16">
-                            <img class="w-full h-full object-cover" src="./img/image-1.png" alt="">
-                        </div>
-        
-                        <div class="w-32 space-y-1.5">
-                            <div role="status" class="max-w-sm animate-pulse">
-                                <div class="h-6 bg-gray-300 dark:bg-gray-700"></div>
-                            </div>
-        
-                            <div role="status" class="max-w-sm animate-pulse">
-                                <div class="h-2.5 bg-gray-300 dark:bg-gray-700"></div>
-                            </div>
+                        <div role="status" class="animate-pulse">
+                            <div class="h-2.5 bg-gray-300 dark:bg-gray-700"></div>
                         </div>
                     </div>
 
-                    <img class="absolute left-24 -translate-y-36" src="./img/gaserrr.svg" alt="">
-               </div>
-               <!-- bottom -->
-               <div class="inline-flex justify-between gap-x-6 shadow-x bg-white translate-x-52 -translate-y-10 p-5">
-                    <div class="flex flex-col">
-                        <div>
-                            <img class="w-full h-full object-cover" src="./img/airline.svg" alt="">
-                        </div>
-                        <div>
-                            <img class="w-full h-full object-cover" src="./img/austrian.svg" alt="">
-                        </div>
-                    </div>
+                    <a class="w-1/2 text-xs text-white text-center bg-brand-purple hover:opacity-60 transition ease-linear px-6 py-4" href="#">
+                        Send reminder
+                    </a>
 
-                    <div>
-                        <img src="./img/animate.png" alt="">
-                    </div>
-               </div>
-              
-            </div>
-        </div>
-
-        <div class="bg-black px-6 sm:px-10 md:px-20 xl:px-32">
-            <div class="relative pb-40">
-                <div class="absolute -top-36 font-founder-gro text-center">
-                  <div class=" text-black bg-white px-4 py-10 lg:py-20 text-center">
-                    <h2 class="text-3xl lg:text-5xl pb-1">Get amazing customer support </h2>
-                    <p class="font-light text-brand-black lg:text-xl px-5 sm:px-10 lg:px-20 xl:px-44">
-                        Lynup was founded in Berlin  by a group of music industry professionals. We understand that the requirements of each agency may differ, that’s why we offer total tech support so you never stay stuck. You can reach us via phone, email, or chat.
-                    </p>
-                  </div>
-               </div>
-
-              <div class="pt-80">
-                <h1 class="max-w-3xl mx-auto font-HelveticaNeue text-4xl text-white text-center md:text-5xl lg:text-7xl lg:leading-[88px] pb-16">
-                    Are you ready to  grow your <span class="border border-brand-purple rounded-[100px] py-2 px-3">agency?</span>
-                </h1>
-               <div class="flex items-center justify-center">
-                    <a class="inline-block bg-white hover:bg-brand-purple transition ease-linear mx-auto px-8 py-3" href="./book.html">Book a demo</a>
-               </div>
-              </div>
-    
-            </div>
-        </div>
-       
-        <footer class="bg-black border-t border-white/20">
-            <div class="max-w-90rem mx-auto font-HelveticaNeue font-medium text-white px-5 md:px-10 pt-6 pb-10">
-                <div class="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0 gap-5">
-                    <div class="lg:w-1/3">
-                        <a href="#">
-                            <svg width="105" height="31" viewBox="0 0 105 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M-0.000976562 11.0002V30.6264H14.9064V26.265H5.25682V11.0002H-0.000976562Z" fill="white"/>
-                                <path d="M22.1922 18.0719L17.8004 11.0002H11.955L19.4396 23.1809V30.6264H24.5427V23.1809L32.0274 11.0002H26.3675L22.1922 18.0719Z" fill="white"/>
-                                <path d="M38.5351 11.0002H33.5247V30.6264H38.3495V19.0065L46.762 30.6264H50.9682V11.0002H46.1434V21.8725L38.5351 11.0002Z" fill="white"/>
-                                <path d="M62.6639 31.0002C67.6743 31.0002 71.5403 28.5703 71.5403 22.8383V11.0002H66.2825V21.966C66.2825 24.9566 65.3856 26.5454 62.6639 26.5454C59.9732 26.5454 59.0453 24.9566 59.0453 21.966V11.0002H53.8185V22.8383C53.8185 28.5703 57.6536 31.0002 62.6639 31.0002Z" fill="white"/>
-                                <path d="M79.5865 20.2526V15.237H82.6793C85.0299 15.237 85.9268 16.1093 85.9268 17.7604C85.9268 19.4115 85.0299 20.2526 82.6793 20.2526H79.5865ZM79.5865 24.4893H82.9268C88.0299 24.4893 90.999 22.0906 90.999 17.7292C90.999 13.399 88.0299 11.0002 82.9268 11.0002H74.3596V30.6264H79.5865V24.4893Z" fill="white"/>
-                                <circle cx="98.5" cy="5.5" r="3.5" fill="#EC4B6F"/>
-                            </svg>                   
-                        </a>
-                    </div>
-                    <p class="lg:w-1/4 lg:text-center opacity-60">
-                        © Copyright 2022 Lynup
-                    </p>
-                    <div class="lg:w-2/5 flex flex-row justify-end text-xs sm:text-base font-HelveticaNeue font-medium space-x-3 xl:space-x-6">
-                        <a class="hover:opacity-60 transition ease-linear" href="#">Contact</a>
-                        <a class="hover:opacity-60 transition ease-linear" href="#">Security</a>
-                        <a class="hover:opacity-60 transition ease-linear" href="#">Cookie Policy</a>
-                        <a class="hover:opacity-60 transition ease-linear" href="#">Privacy</a>
-                        <a class="hover:opacity-60 transition ease-linear" href="#">Terms</a>
-                    </div>
-    
                 </div>
+                <!-- Absolute content left  -->
+                <img class="absolute z-0 -top-7 left-20 xl:left-32" src="./img/gaserrr.svg" alt="">
+                      <!-- Absolute content right  -->
+                <img class="absolute z-0 right-16 xl:right-24 top-14" src="./img/right-circlee.svg" alt="">
+                <!-- Absolute Card -->
+                <div class="w-56 absolute z-20 right-14 -mt-28 cursor-pointer bg-white shadow-x p-4">
+                    <div role="status" class="w-full mb-6 animate-pulse">
+                        <div class="h-6 bg-gray-300 dark:bg-gray-700"></div>
+                    </div>
+                    <div class="mb-4">
+                        <img class="w-full" src="./img/artist-list.png" alt="">
+                    </div>
+
+                    <button class="w-full font-inter text-[10px] font-semibold border text-brand-purple border-brand-purple  hover:bg-brand-purple
+                        hover:text-white transition ease-linear py-4">
+                        Select Artists
+                    </button>
+
+                </div>
+
+                <!--  Absolute content left & bottom -->
+                <div class="inline-flex items-center shadow-x justify-center gap-x-4 bg-white -translate-y-40 -ml-4 pl-4 py-4 pr-6">
+                    <div class="w-16 h-16">
+                        <img class="w-full h-full object-cover" src="./img/image-1.png" alt="">
+                    </div>
+    
+                    <div class="w-32 space-y-1.5">
+                        <div role="status" class="max-w-sm animate-pulse">
+                            <div class="h-6 bg-gray-300 dark:bg-gray-700"></div>
+                        </div>
+    
+                        <div role="status" class="max-w-sm animate-pulse">
+                            <div class="h-2.5 bg-gray-300 dark:bg-gray-700"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="absolute left-24 -translate-y-36" src="./img/gaserrr.svg" alt="">
+           </div>
+           <!-- bottom -->
+           <div class="inline-flex justify-between gap-x-6 shadow-x bg-white translate-x-52 -translate-y-10 p-5">
+                <div class="flex flex-col">
+                    <div>
+                        <img class="w-full h-full object-cover" src="./img/airline.svg" alt="">
+                    </div>
+                    <div>
+                        <img class="w-full h-full object-cover" src="./img/austrian.svg" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/animate.png" alt="">
+                </div>
+           </div>
+          
+        </div>
+    </div>
+
+    <div class="bg-black px-6 sm:px-10 md:px-20 xl:px-32">
+        <div class="relative pb-40">
+            <div class="absolute -top-36 font-founder-gro text-center">
+              <div class=" text-black bg-white px-4 py-10 lg:py-20 text-center">
+                <h2 class="text-3xl lg:text-5xl pb-1">Get amazing customer support </h2>
+                <p class="font-light text-brand-black lg:text-xl px-5 sm:px-10 lg:px-20 xl:px-44">
+                    Lynup was founded in Berlin  by a group of music industry professionals. We understand that the requirements of each agency may differ, that’s why we offer total tech support so you never stay stuck. You can reach us via phone, email, or chat.
+                </p>
+              </div>
+           </div>
+
+          <div class="pt-80">
+            <h1 class="max-w-3xl mx-auto font-HelveticaNeue text-4xl text-white text-center md:text-5xl lg:text-7xl lg:leading-[88px] pb-16">
+                Are you ready to  grow your <span class="border border-brand-purple rounded-[100px] py-2 px-3">agency?</span>
+            </h1>
+           <div class="flex items-center justify-center">
+                <a class="inline-block bg-white hover:bg-brand-purple transition ease-linear mx-auto px-8 py-3" href="./book.html">Book a demo</a>
+           </div>
+          </div>
+
+        </div>
+    </div>
+   
+    </main>
+
+    <footer class="bg-black border-t border-white/20">
+        <div class="max-w-90rem mx-auto font-HelveticaNeue font-medium text-white px-5 md:px-10 pt-6 pb-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0 gap-5">
+                <div class="lg:w-1/3">
+                    <a href="#">
+                        <svg width="105" height="31" viewBox="0 0 105 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M-0.000976562 11.0002V30.6264H14.9064V26.265H5.25682V11.0002H-0.000976562Z" fill="white"/>
+                            <path d="M22.1922 18.0719L17.8004 11.0002H11.955L19.4396 23.1809V30.6264H24.5427V23.1809L32.0274 11.0002H26.3675L22.1922 18.0719Z" fill="white"/>
+                            <path d="M38.5351 11.0002H33.5247V30.6264H38.3495V19.0065L46.762 30.6264H50.9682V11.0002H46.1434V21.8725L38.5351 11.0002Z" fill="white"/>
+                            <path d="M62.6639 31.0002C67.6743 31.0002 71.5403 28.5703 71.5403 22.8383V11.0002H66.2825V21.966C66.2825 24.9566 65.3856 26.5454 62.6639 26.5454C59.9732 26.5454 59.0453 24.9566 59.0453 21.966V11.0002H53.8185V22.8383C53.8185 28.5703 57.6536 31.0002 62.6639 31.0002Z" fill="white"/>
+                            <path d="M79.5865 20.2526V15.237H82.6793C85.0299 15.237 85.9268 16.1093 85.9268 17.7604C85.9268 19.4115 85.0299 20.2526 82.6793 20.2526H79.5865ZM79.5865 24.4893H82.9268C88.0299 24.4893 90.999 22.0906 90.999 17.7292C90.999 13.399 88.0299 11.0002 82.9268 11.0002H74.3596V30.6264H79.5865V24.4893Z" fill="white"/>
+                            <circle cx="98.5" cy="5.5" r="3.5" fill="#EC4B6F"/>
+                        </svg>                   
+                    </a>
+                </div>
+                <p class="lg:w-1/4 lg:text-center opacity-60">
+                    © Copyright 2022 Lynup
+                </p>
+                <div class="lg:w-2/5 flex flex-row justify-end text-xs sm:text-base font-HelveticaNeue font-medium space-x-3 xl:space-x-6">
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Contact</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Security</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Cookie Policy</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Privacy</a>
+                    <a class="hover:opacity-60 transition ease-linear" href="#">Terms</a>
+                </div>
+
             </div>
-        </footer>
+        </div>
+    </footer>
 
    <!-- Swiper JS -->
    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
