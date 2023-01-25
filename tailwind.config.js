@@ -22,7 +22,9 @@ module.exports = {
       },
       borderRadius:{
         100:"6.25rem"
-      }
+      },
+
+     
     },
   },
   plugins: [],
