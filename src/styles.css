@@ -14,6 +14,17 @@
     padding-right: 1.25rem;
 }
 
+.purple-border::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #EC4B6F;
+    border-radius: 9999px;
+}
+
 .shadow-hero{ 
    box-shadow: -4px -3px 45px -8px rgba(34, 60, 80, 0.2);
 }
